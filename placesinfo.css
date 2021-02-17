@@ -7,6 +7,7 @@
 }
 html,body {
    height: 100%;
+   scroll-behavior: smooth;
 }
 body {
    display: flex;
@@ -571,8 +572,9 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 240px;
+   width: 200px;
    color: #141414;
+   text-decoration: none;
 }
 
 .social_logo {
