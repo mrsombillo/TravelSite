@@ -1,3 +1,3 @@
 # TravelSite
 
-GIT commit
+The live development branch of the Group's Website
