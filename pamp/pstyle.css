@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   font-family: 'Alegreya Sans', regular;
+}
+
+.navbar {
+    background: #131313;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#navbar__logo {
+    font-family: 'Alegreya Sans SC';
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    allign-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#logo_pic {
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+ }
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 70%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items:right;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display:inline-block;
+    justify-content: right;
+    align-items: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    color: #fff;
+}
+
+.button:hover {
+    background: #bb7899;
+    transition: all 0.3 ease;
+
+}
+
+.navbar__links:hover {
+    color: #ff1900;
+    font-size: 120%;
+    font-style: bold;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width:960px){
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+    
+    }    
+}
