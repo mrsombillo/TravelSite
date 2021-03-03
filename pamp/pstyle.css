@@ -223,6 +223,40 @@
     padding-right: 50px;
     padding-left: 50px;
   }
+
+
+  .hmain__container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #131313;
+    background-image: url('/images/history.jpg');
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .pmain__container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #131313;
+    background-image: url('/images/people.jpg');
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
   
   .main__content {
 
@@ -408,7 +442,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
       ),
-      url('/images/pic3.jpg');
+      url('/images/birds.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -424,8 +458,28 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
       ),
-      url('/images/pic4.jpg');
+      url('/images/food.jpg');
   }
+
+  .services__card:nth-child(3) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(17, 17, 17, 0.9) 100%
+      ),
+      url('/images/church.jpg');
+  }
+
+
+  .services__card:nth-child(4) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(17, 17, 17, 0.9) 100%
+      ),
+      url('/images/pinak.jpg');
+  }
+
   
   .services__card h2 {
     position: absolute;
